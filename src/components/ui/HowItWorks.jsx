@@ -16,7 +16,7 @@ export default function HowItWorks() {
           <Heading
             bgGradient="linear(to-r, #34c153, #3489c1)"
             bgClip="text"
-            fontSize={[32,64]}
+            fontSize={[32, 64]}
             fontWeight={700}
           >
             SERVICES
@@ -35,12 +35,16 @@ export default function HowItWorks() {
             align="left"
             justify="space-between"
           >
-            <Flex flexDirection={["column", "row"]} align={["left","center"]} gap="24px">
+            <Flex
+              flexDirection={["column", "row"]}
+              align={["left", "center"]}
+              gap="24px"
+            >
               <Box
                 bg="#34c1523e"
                 px="24px"
                 py="20px"
-                w='fit-content'
+                w="fit-content"
                 fontWeight={500}
                 fontSize={24}
                 rounded="16px"
@@ -61,12 +65,16 @@ export default function HowItWorks() {
                 </Text>
               </VStack>
             </Flex>
-            <Flex flexDirection={["column", "row"]} align={["left","center"]} gap="24px">
+            <Flex
+              flexDirection={["column", "row"]}
+              align={["left", "center"]}
+              gap="24px"
+            >
               <Box
                 bg="#34c1523e"
                 px="24px"
                 py="20px"
-                w='fit-content'
+                w="fit-content"
                 fontWeight={500}
                 fontSize={24}
                 rounded="16px"
@@ -86,12 +94,16 @@ export default function HowItWorks() {
                 </Text>
               </VStack>
             </Flex>
-            <Flex flexDirection={["column", "row"]} align={["left","center"]} gap="24px">
+            <Flex
+              flexDirection={["column", "row"]}
+              align={["left", "center"]}
+              gap="24px"
+            >
               <Box
                 bg="#34c1523e"
                 px="24px"
                 py="20px"
-                w='fit-content'
+                w="fit-content"
                 fontWeight={500}
                 fontSize={24}
                 rounded="16px"
@@ -138,6 +150,9 @@ export default function HowItWorks() {
             your mining goals.
           </Text>
           <Button
+            as="a"
+            target="_blank"
+            href="https://gpu.dynexgpu.xyz/"
             variant="solid"
             rounded="full"
             px="32px"
