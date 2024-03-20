@@ -2,7 +2,7 @@ import { Box, Heading, SimpleGrid, Text, VStack } from "@chakra-ui/react";
 
 export default function Features() {
   return (
-    <Box my="60px">
+    <Box my="60px" id="service">
       <VStack w="full" align="left" gap="48px">
         <VStack gap="48px" align="center">
           <Heading

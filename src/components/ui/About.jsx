@@ -2,7 +2,7 @@ import { Box, Flex, Heading, Image, Text, VStack } from "@chakra-ui/react";
 
 export default function About() {
   return (
-    <Box py="40px">
+    <Box py="40px" id="about">
       <VStack align="center" gap="32px">
         <Heading
           fontSize={[32,64]}
@@ -13,7 +13,7 @@ export default function About() {
           About Us
         </Heading>
         <Flex
-          flexWrap="wrap"
+          flexDirection={['column', 'row']}
           mb="30px"
           align="center"
           gap="64px"
@@ -39,7 +39,7 @@ export default function About() {
           </VStack>
           <Image src="Crypto.png" alt="" width={300} />
         </Flex>
-        <Flex flexWrap="wrap" align="center" gap="64px" justify="center">
+        <Flex flexDirection={['column-reverse', 'row']} align="center" gap="64px" justify="center">
           <Image src="graphics-card.png" alt="" width={300} />
           <VStack align="left" gap="16px">
             <Text fontSize={32} fontWeight={700}>

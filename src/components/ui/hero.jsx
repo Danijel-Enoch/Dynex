@@ -11,7 +11,7 @@ import {
 
 export default function Hero() {
   return (
-    <Box py="60px">
+    <Box py="60px" id="home">
       <Flex flexWrap="wrap" align="center" justify="space-between">
         <VStack align="left" gap="24px">
           <Heading fontSize={[32, 64]}>
@@ -24,7 +24,12 @@ export default function Hero() {
               Ethereum Mining
             </Box>
           </Heading>
-          <Text maxW='520px' lineHeight='26px' fontSize={15} color='whiteAlpha.600'>
+          <Text
+            maxW="520px"
+            lineHeight="26px"
+            fontSize={15}
+            color="whiteAlpha.600"
+          >
             Dynex leads the Ethereum mining revolution with cutting-edge GPU
             technology, empowering miners worldwide to achieve peak performance
             and profitability. Explore our services and join us in shaping the
@@ -32,6 +37,9 @@ export default function Hero() {
           </Text>
           <ButtonGroup gap="24px" orientation="horizontal">
             <Button
+              as="a"
+              target="_blalnk"
+              href="http://gpu.dynexgpu.xyz"
               variant="solid"
               rounded="full"
               px="32px"
@@ -40,9 +48,12 @@ export default function Hero() {
               _hover={{ bg: "#34c153" }}
               color="white"
             >
-              View Nodes
+              Start App
             </Button>
             <Button
+             as="a"
+             target="_blalnk"
+             href="https://dynexgpu-technology.gitbook.io/dynexgpu-technology/"
               variant="outline"
               color="white"
               rounded="full"
@@ -50,7 +61,7 @@ export default function Hero() {
               px="32px"
               py="24px"
             >
-              Start Node
+              View Docs
             </Button>
           </ButtonGroup>
         </VStack>

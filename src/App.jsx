@@ -5,6 +5,7 @@ import HowItWorks from "./components/ui/HowItWorks";
 import Features from "./components/ui/features";
 import Hero from "./components/ui/hero";
 import About from "./components/ui/About";
+import Footer from "./components/ui/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Features />
         <About />
         <HowItWorks />
+        <Footer />
       </ContainLayout>
     </>
   );
