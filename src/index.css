@@ -1,0 +1,26 @@
+body {
+  background-color: #07091a;
+}
+
+.bg-scroll{
+  width: 200px;
+  height: 200px;
+  background: #34c153;
+  border-radius: 100%;
+  filter: blur(200px);
+  position: fixed;
+  z-index: -11111;
+  top: 50%;
+  left: 0;
+}
+.bg-scroll2{
+  width: 200px;
+  height: 200px;
+  background: #3489c1;
+  border-radius: 100%;
+  filter: blur(200px);
+  position: fixed;
+  z-index: -11111;
+  top: 50%;
+  right: 0;
+}
