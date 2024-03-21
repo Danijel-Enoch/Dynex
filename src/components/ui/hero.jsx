@@ -21,7 +21,7 @@ export default function Hero() {
 							bgGradient="linear(to-r, #34c153, #3489c1)"
 							bgClip="text"
 						>
-							Ethereum Mining
+							DYNEX Mining
 						</Box>
 					</Heading>
 					<Text
@@ -30,11 +30,11 @@ export default function Hero() {
 						fontSize={15}
 						color="whiteAlpha.600"
 					>
-						Dynex leads the Ethereum mining revolution with
+						Dynex is the premier GPU mining revolution with
 						cutting-edge GPU technology, empowering miners worldwide
 						to achieve peak performance and profitability. Explore
 						our services and join us in shaping the future of
-						Ethereum mining.
+						Ethereum Networrk.
 					</Text>
 					<ButtonGroup gap="24px" orientation="horizontal">
 						<Button
