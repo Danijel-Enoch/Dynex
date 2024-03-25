@@ -24,6 +24,7 @@ export default function Footer() {
 					and subscribe to our newsletter to receive the latest
 					updates, news, and insights from the world of DYNEX mining.
 				</Text>
+
 				<Flex align="center" gap="16px">
 					<Box
 						as="a"
